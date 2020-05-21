@@ -1,0 +1,40 @@
+These files show different concepts in Verilog pertaining to EECS 362.
+Following is a description of individual files.
+
+To run the tests, execute 'make', then one of the 'test_' executables.
+
+pipe_reg.v
+    Synopsis-friendly register modules.
+
+    These registers are intended for use between pipeline stages,
+    and include CLK and RST signal handling.
+
+compare.v
+    Pipeline example.
+
+    Two example modules, 'find_min_single' and 'find_min_pipe',
+    determine the minimum of four input values in one or two stages,
+    respectively.
+    A test bench 'test_find_min' cycles a clock, and shows output
+    from the two modules.
+
+memory.v
+    Memory components.
+
+    The modules 'imem' and 'dmem' are provided for use in your
+    designs. They may be modified, but should represent caches.
+    There is also a test bench 'memload_example', which loads
+    hex files into imem and dmem, then reads values from each.
+
+test2.s
+    Example assembly.
+
+    Assembly generated for a small program. This can be used to
+    generate instructions and data in hex using the assembler, dlxasm.
+
+Makefile
+    Example make rules
+
+    Generates hex files 'data.hex' and 'instr.hex', as well as icarus
+    test benches 'test_pipeline' (from 'test_find_min' in 'compare.v')
+    and 'test_dataload' (from 'memload_example' in 'memory.v').

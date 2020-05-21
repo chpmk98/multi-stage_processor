@@ -1,0 +1,52 @@
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : area
+Design : extender
+Version: D-2010.03-SP5
+Date   : Thu Mar 14 14:17:04 2019
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/atr7967/EECS_362/project/synthesis2/NangateOpenCellLibrary.db)
+
+Number of ports:               49
+Number of nets:                18
+Number of cells:                1
+Number of references:           1
+
+Combinational area:          1.064000
+Noncombinational area:       0.000000
+Net Interconnect area:       6.846047  
+
+Total cell area:             1.064000
+Total area:                  7.910047
+1
+ 
+****************************************
+Report : reference
+Design : extender
+Version: D-2010.03-SP5
+Date   : Thu Mar 14 14:17:04 2019
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AND2_X4            NangateOpenCellLibrary
+                                  1.064000       1      1.064000  
+-----------------------------------------------------------------------------
+Total 1 references                                      1.064000
+1

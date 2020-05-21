@@ -1,0 +1,76 @@
+0 
+21
+-Mamsrun=
+-Masflags=--32
+-Mcc=gcc
+-Mcfl= -pipe -m32 -O -I/vol/synopsys2012/vcs_vF-2011.12/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mldflags= -melf_i386 -m32
+-Mobjects= /vol/synopsys2012/vcs_vF-2011.12/linux/lib/libvirsim.so /vol/synopsys2012/vcs_vF-2011.12/linux/lib/librterrorinf.so /vol/synopsys2012/vcs_vF-2011.12/linux/lib/libsnpsmalloc.so
+-Mout=condTest
+-Msaverestoreobj=/vol/synopsys2012/vcs_vF-2011.12/linux/lib/vcs_save_restore_new.o
+-Msyslibs=/vol/synopsys2012/vcs_vF-2011.12/linux/lib/ctype-stubs_32.a -ldl
+-Mvcsaceobjs=
+-gen_obj
+-o condTest
+/vol/synopsys2012/vcs_vF-2011.12/linux/bin/vcs1
+adder_32.v
+adder_bit.v
+condTB.v
+logicGates.v
+40
+sysc_uni_pwd=/home/atr7967/EECS_362/project
+__GLX_VENDOR_LIBRARY_NAME=nvidia
+VMR_MODE_FLAG=32
+VENDOR=unknown
+VCS_HOME=/vol/synopsys2012/vcs_vF-2011.12
+VCS_EXE=/vol/synopsys2012/vcs_vF-2011.12/bin
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux
+VCS_AMD_PURE32=1
+UNAME=/bin/uname
+TOOL_HOME=/vol/synopsys2012/vcs_vF-2011.12/linux
+SYNOPSYS=/vol/synopsys2012
+SSH_TTY=/dev/pts/0
+SSH_CONNECTION=10.105.177.88 50039 129.105.7.94 22
+SSH_CLIENT=10.105.177.88 50039 22
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SNPSLMD_LICENSE_FILE=27000@synopsyslm.eecs.northwestern.edu:/vol/synopsys2012/vcs_vF-2011.12/flexlm//license.dat
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+REMOTEHOST=10.105.177.88
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+OVA_UUM=0
+OSTYPE=linux
+MODULESHOME=/usr/share/Modules
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+LOADEDMODULES=
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+KDE_IS_PRELINKED=1
+KDEDIRS=/usr
+HOSTTYPE=x86_64-linux
+HOSTNAME=poisonivy.ece.northwestern.edu
+HOST=poisonivy.ece.northwestern.edu
+G_BROKEN_FILENAMES=1
+GROUP=ug
+DC_HOME=/vol/eecs362/synopsys/dc
+DC_EXE=/vol/eecs362/synopsys/dc/bin
+CVS_RSH=ssh
+0
+4
+1549645861 condTB.v
+1549645563 adder_32.v
+1548103509 adder_bit.v
+1549645719 logicGates.v
+4
+0 
+1322023697 /vol/synopsys2012/vcs_vF-2011.12/linux/lib/libvirsim.so
+1322023323 /vol/synopsys2012/vcs_vF-2011.12/linux/lib/librterrorinf.so
+1322023249 /vol/synopsys2012/vcs_vF-2011.12/linux/lib/libsnpsmalloc.so
+1549645865 condTest.daidir

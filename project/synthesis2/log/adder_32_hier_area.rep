@@ -1,0 +1,86 @@
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : area
+Design : adder_32
+Version: D-2010.03-SP5
+Date   : Thu Mar 14 13:38:32 2019
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/atr7967/EECS_362/project/synthesis2/NangateOpenCellLibrary.db)
+
+Number of ports:               98
+Number of nets:               321
+Number of cells:              256
+Number of references:          18
+
+Combinational area:        269.723997
+Noncombinational area:       0.000000
+Net Interconnect area:      90.951547  
+
+Total cell area:           269.723997
+Total area:                360.675544
+1
+ 
+****************************************
+Report : reference
+Design : adder_32
+Version: D-2010.03-SP5
+Date   : Thu Mar 14 13:38:32 2019
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AND2_X4            NangateOpenCellLibrary
+                                  1.064000       4      4.256000  
+AOI21_X2           NangateOpenCellLibrary
+                                  1.064000      12     12.768000  
+AOI22_X2           NangateOpenCellLibrary
+                                  1.330000       1      1.330000  
+AOI22_X4           NangateOpenCellLibrary
+                                  2.394000       2      4.788000  
+INV_X4             NangateOpenCellLibrary
+                                  0.532000      57     30.324000  
+NAND2_X2           NangateOpenCellLibrary
+                                  0.798000      64     51.071999  
+NAND3_X2           NangateOpenCellLibrary
+                                  1.064000      19     20.216000  
+NAND4_X2           NangateOpenCellLibrary
+                                  1.330000       3      3.990000  
+NAND4_X4           NangateOpenCellLibrary
+                                  2.394000       2      4.788000  
+NOR2_X2            NangateOpenCellLibrary
+                                  0.798000       7      5.586000  
+NOR3_X2            NangateOpenCellLibrary
+                                  1.064000       3      3.192000  
+OAI21_X2           NangateOpenCellLibrary
+                                  1.064000       6      6.384000  
+OAI21_X4           NangateOpenCellLibrary
+                                  1.862000       1      1.862000  
+OAI22_X2           NangateOpenCellLibrary
+                                  1.330000       1      1.330000  
+OAI22_X4           NangateOpenCellLibrary
+                                  2.394000       2      4.788000  
+OAI211_X2          NangateOpenCellLibrary
+                                  1.330000       7      9.310000  
+XNOR2_X2           NangateOpenCellLibrary
+                                  1.596000      59     94.163997  
+XOR2_X2            NangateOpenCellLibrary
+                                  1.596000       6      9.576000  
+-----------------------------------------------------------------------------
+Total 18 references                                   269.723997
+1
